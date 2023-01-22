@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="calc.css">
+    <i class="fa-solid fa-calculator"></i>
+</head>
+
+    <body>
+            <center>
+                <div class="calcb">
+                    <h1>CALCULATOR</h1>
+
+                    
+                        <input itemid="" type="text"  id="result" class="display" name="display"><br>
+                        <button class="red" id="ac" class="grey" class="ac" onclick="allClear()">AC</button> 
+                        <button class="grey" id="div" class="grey" onclick="display('%')">%</button>
+                        <button class="grey" id="back" class="grey" onclick="back()">⌫</button> 
+                        <button class="grey" id="÷" class="grey" onclick="display('/')">÷</button>
+                        <br>
+                        <button class="bot" id="sev" onclick="display('7')">7</button> 
+                        <button class="bot" id="eg" onclick="display('8')">8</button> 
+                        <button class="bot" id="nin" onclick="display('9')">9</button> 
+                        <button class="grey" id="mul" onclick="display('*')">x</button> 
+                        <br>
+                        <button class="bot" id="four" onclick="display('4')">4</button> 
+                        <button class="bot" id="fiv" onclick="display('5')">5</button> 
+                        <button class="bot" id="six" onclick="display('6')">6</button>
+                        <button class="grey" id="sub" onclick="display('-')">&#45</button>
+                        <br>
+                        <button class="bot" id="one" onclick="display('1')">1</button> 
+                        <button class="bot" id="two" onclick="display('2')">2</button> 
+                        <button class="bot" id="three" onclick="display('3')">3</button>
+                        <button class="grey" id="add" onclick="display('+')">&#43</button>
+                        <br>
+                        <button class="bot" id="ze" onclick="display('0')">0</button> 
+                        <button class="bot" id="sev" onclick="display('.')">.</button> 
+                        
+                        <button class="sev" id="sev" onclick="output()">=</button>
+            
+            
+                </div> 
+           
+            </center>
+    
+    
+    
+    
+    </body>
+
+<script src="calc.js"></script>
+</html>
